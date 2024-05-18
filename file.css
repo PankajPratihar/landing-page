@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-right: 60px;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  padding-right: 50px;
+  position: left;
+  justify-content: left;
+  margin-left: 1200px;
+  margin-bottom: 10px;
+}
+    
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+ 
+.container1{
+  background: rgba(233, 244, 255, 1);
+
+   /* position: absolute; */
+   /* width: 561px;
+   height: 206px;
+   left: 135px;
+   top: 291px;
+    */
+    /* background-image: url("pic1.jpg");
+    width: 567.89px;
+    height: 616.02px;
+    top: -20.01px;
+    left: -18.44px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px; */
+    
+  
+}
+.text{
+ font-size: 40px;
+ margin-left: 45px;
+ margin-top: 5px;
+ padding-top: 5px;
+ display:flex;
+}
+/* Banner text cont grp 1 */
+button{
+width: Hug (167px)px;
+height: Fixed (54px)px;
+top: 537px;
+left: 135px;
+padding: 16px 34px 16px 34px;
+gap: 6px;
+border-radius: 8px 8px 8px 8px;
+opacity: 0px;
+background: rgba(67, 97, 238, 1);
+ margin-left: 50px;
+ margin-bottom: 50px;
+}
+.t {
+  font-family: Proxima Nova;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.92px;
+text-align: center;
+color:  rgba(255, 255, 255, 1);
+
+
+}
+.photo{
+ height: 400px;
+ width: 500px;
+ background-image: url("pic1.jpg"); 
+ background-repeat: no-repeat;  
+ background-size: contain;
+ margin-left: 1000px;
+ padding-bottom: 100px;
+ 
+ 
+ /* top: -20.01px; */
+
+}
+.image {
+  position: left;
+  text-align: center;
+  isolation: isolate;
+  height: 450px;
+  width: 450px;
+  margin-left: 1000px;
+ padding-bottom: 100px;
+ display:flex;
+}
+
+.image__bg {
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 450px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;  
+  background-size: contain;
+  padding-bottom: 110px;
+  border: 110px;
+}
+
